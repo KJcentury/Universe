@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="image/icon.png" type="image/x-icon">
+<title>Kajo's myform</title>
+<meta name="description" content="你的資料">
+</head>
+    
+<body>
+    <div class="container myform">
+    <form action="register.php">
+        Name：<input type="text" placeholder="Andy" required>
+    <br>
+        Email：<input type="email" placeholder="xxx@xxx.xxx"required >
+    <br>
+        Phone：<input type="tel" placeholder="096*****" required>
+    <br>
+        password:<input type="password" required>
+    <br>
+        confirm password:<input type="password" required>
+    <hr>
+        性別：
+        <input type="radio" name="gender" value="男">男
+        <input type="radio" name="gender" value="女">女
+        <input type="radio" name="gender" value="其他">其他
+    <hr>
+        <label>喜歡的屬性:</label>
+        <input class="select" type="checkbox" id="f1" name="喜歡的屬性" value="火">
+        <label for="f1">火</label><br>
+        <input class="select" type="checkbox" id="f2" name="喜歡的屬性" value="水">
+        <label for="f2">水</label><br>
+        <input class="select" type="checkbox" id="f3" name="喜歡的屬性" value="草">
+        <label for="f3">草</label><br>
+        <input class="select" type="checkbox" id="f4" name="喜歡的屬性" value="雷">
+        <label for="f4">雷</label><br>
+        <input class="select" type="checkbox" id="f5" name="喜歡的屬性" value="鬥">
+        <label for="f5">鬥</label><br>
+        </form>
+        
+    <a href="/index.html">back to home</a>
+    </div>
+
+    </body>
